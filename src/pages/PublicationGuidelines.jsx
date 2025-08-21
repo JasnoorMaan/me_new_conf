@@ -10,9 +10,7 @@ const PublicationGuidelines = () => {
             <p className="subheading highlighter1 font-medium">TFGET2026</p>
           </div>
 
-          <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600">
-            {/* <h3 className="subheading highlighter1 mb-8 text-center">SUBMISSION & AUTHOR GUIDELINES</h3> */}
-
+          <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600 mb-8">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               {/* Springer Logo Column */}
               <div className="lg:col-span-1 flex justify-center lg:justify-start">
@@ -22,9 +20,6 @@ const PublicationGuidelines = () => {
                     alt="Springer Publisher"
                     className="w-full max-w-[200px] h-auto rounded-lg shadow-md mb-4"
                   />
-                  <p className="text-sm text-gray-600 text-center font-medium">
-                    Publication Partner
-                  </p>
                 </div>
               </div>
 
@@ -58,6 +53,52 @@ const PublicationGuidelines = () => {
                     Non-Open Access content. Abstracts/extended abstracts and
                     short papers (less than 4 pages) are not considered for
                     publication.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600 mb-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+              {/* Springer Logo Column */}
+              <div className="lg:col-span-1 flex justify-center lg:justify-start">
+                <div className="flex flex-col items-center">
+                  <img
+                    src="/landing/journal.jpg"
+                    alt="Springer Publisher"
+                    className="w-full max-w-[200px] h-auto rounded-lg shadow-md mb-4"
+                  />
+                </div>
+              </div>
+
+              {/* Content Column */}
+              <div className="lg:col-span-2">
+                <div className="prose prose-lg max-w-none">
+                  <p className="mb-4">
+                    Selected papers will be published in the regular issue.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+              {/* Logo Column */}
+              <div className="lg:col-span-1 flex justify-center lg:justify-start">
+                <div className="flex flex-col items-center">
+                  <img
+                    src="/landing/sigma.jpg"
+                    alt="Springer Publisher"
+                    className="w-full max-w-[200px] h-auto rounded-lg shadow-md mb-4"
+                  />
+                </div>
+              </div>
+
+              {/* Content Column */}
+              <div className="lg:col-span-2">
+                <div className="prose prose-lg max-w-none">
+                  <p className="mb-4">
+                    Selected papers will be published in the regular issue.
                   </p>
                 </div>
               </div>

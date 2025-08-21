@@ -73,9 +73,9 @@ const Speakers = () => {
 
   return (
     <section className="py-16 px-4">
-      <div className="max-w-[80vw] mx-auto">
+      <div className="max-w-[90vw] mx-auto">
         <h1 className="heading pb-8 text-center">Speakers</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {displaySpeakers.map((speaker) => (
             <Card
               key={speaker.id}

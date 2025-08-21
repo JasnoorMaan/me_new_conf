@@ -16,29 +16,31 @@ const HeroSection = () => {
       <div className="absolute inset-0 hero-pattern z-5"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-conf-green-700/20 to-conf-green-600/10 z-10"></div>
 
-      <section className="flex flex-col md:flex-row justify-center items-center">
-        <section className="hidden md:gap-12 md:flex md:flex-col md:justify-between md:items-center">
-          <h2 className="font-bold text-center">Publication Partners</h2>
+      <section className="flex flex-col md:flex-row justify-center items-stretch relative z-30 min-h-[calc(100vh-5rem)]">
+        <section className="hidden md:gap-2 md:flex md:flex-col md:justify-start md:items-center relative z-40 pt-8">
+          <h2 className="font-bold text-lg text-center mb-4">
+            Publication Partners
+          </h2>
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg mb-2"
             width={250}
             src="/landing/journal.jpg"
             alt="Journal Logo"
           />
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg mb-2"
             width={250}
             src="/landing/sigma.jpg"
             alt="Sigma Logo"
           />
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg"
             width={250}
             src="/landing/springer_hori.jpg"
             alt="Springer Logo"
           />
         </section>
-        <div className="container mx-auto px-4 z-20 relative">
+        <div className="container mx-auto px-4 relative z-40 flex items-center justify-center">
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
             <h1 className="heading font-heading leading-tight">
               <span className="block highlighter1 mb-2">
@@ -96,7 +98,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-0 right-0 flex justify-center animate-bounce z-20">
+        <div className="absolute bottom-1 left-0 right-0 flex justify-center animate-bounce z-40">
           <a
             href="#about"
             className="text-gray-500 hover:text-conf-green-600 transition-colors"
@@ -117,38 +119,38 @@ const HeroSection = () => {
             </svg>
           </a>
         </div>
-        <section className="pt-8 gap-4 flex flex-col justify-between items-center md:hidden">
+        <section className="pt-8 gap-4 flex flex-col justify-between items-center md:hidden relative z-40">
           <h2 className="font-bold text-center">Publication Partners</h2>
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg"
             width={250}
             src="/landing/journal.jpg"
             alt="Journal Logo"
           />
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg"
             width={250}
             src="/landing/sigma.jpg"
             alt="Sigma Logo"
           />
           <img
-            className="z-49 rounded-lg"
+            className="rounded-lg"
             width={250}
             src="/landing/springer_hori.jpg"
             alt="Springer Logo"
           />
         </section>
-        <section className="flex flex-row gap-8 min-h-[40vh] md:min-h-[70vh] justify-between items-center md:flex-col">
+        <section className="flex flex-row gap-2 justify-center md:justify-start items-start md:flex-col relative z-40 pt-8">
           <img
-            className="hidden md:block z-49 rounded-lg"
+            className="hidden md:block rounded-lg mb-4"
             width={250}
             src="/landing/GoldenTemple.webp"
             alt="Golden Temple"
           />
-          <section className="flex flex-col gap-6 md:flex-col justify-center items-center">
-            <h2 className="font-bold">Sponsors</h2>
+          <section className="flex flex-col gap-4 md:flex-col justify-start items-center">
+            <h2 className="font-bold mb-2">Sponsors</h2>
             <img
-              className="z-49 rounded-lg"
+              className="rounded-lg"
               width={250}
               src="/sponsors/manik_sponsor.jpg"
               alt="Manik Sponsor"
@@ -161,11 +163,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-{
-  /* <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-3 hidden md:block"
-        style={{
-          backgroundImage: `url('/bgs/HeroBG2.webp')`,
-        }}
-      /> */
-}
