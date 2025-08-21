@@ -10,6 +10,7 @@ import Guidelines from "./pages/Guidelines";
 import SubmissionGuidelines from "./pages/SubmissionGuidelines";
 import PublicationGuidelines from "./pages/PublicationGuidelines";
 import Acknowledgments from "./pages/Acknowledgments";
+import Sponsors from "./pages/Sponsors";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           element={<PublicationGuidelines />}
         />
         <Route path="/acknowledgments" element={<Acknowledgments />} />
+        <Route path="/sponsors" element={<Sponsors />} />
       </Routes>
       <Footer />
     </Router>

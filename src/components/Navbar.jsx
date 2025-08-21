@@ -63,6 +63,12 @@ const Navbar = () => {
       isRoute: true,
     },
     {
+      name: "Sponsors",
+      href: "/sponsors",
+      section: null,
+      isRoute: true,
+    },
+    {
       name: "Brochure",
       href: "https://nitj.ac.in/files/1753271909876-Flyer_TFGET26.pdf",
       section: null,
