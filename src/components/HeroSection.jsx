@@ -117,14 +117,35 @@ const HeroSection = () => {
             </svg>
           </a>
         </div>
-        <section className="flex flex-row gap-8 min-h-[70vh] justify-between items-center md:flex-col">
+        <section className="pt-8 gap-4 flex flex-col justify-between items-center md:hidden">
+          <h2 className="font-bold text-center">Publication Partners</h2>
           <img
             className="z-49 rounded-lg"
+            width={250}
+            src="/landing/journal.jpg"
+            alt="Journal Logo"
+          />
+          <img
+            className="z-49 rounded-lg"
+            width={250}
+            src="/landing/sigma.jpg"
+            alt="Sigma Logo"
+          />
+          <img
+            className="z-49 rounded-lg"
+            width={250}
+            src="/landing/springer_hori.jpg"
+            alt="Springer Logo"
+          />
+        </section>
+        <section className="flex flex-row gap-8 min-h-[40vh] md:min-h-[70vh] justify-between items-center md:flex-col">
+          <img
+            className="hidden md:block z-49 rounded-lg"
             width={250}
             src="/landing/GoldenTemple.webp"
             alt="Golden Temple"
           />
-          <section className="flex flex-row gap-4 md:flex-col justify-center items-center">
+          <section className="flex flex-col gap-6 md:flex-col justify-center items-center">
             <h2 className="font-bold">Sponsors</h2>
             <img
               className="z-49 rounded-lg"
