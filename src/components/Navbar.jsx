@@ -188,7 +188,7 @@ const Navbar = () => {
                 }}
                 className="norma-text font-semibold text-black hover:text-conf-green-600 transition-all duration-300 hover:scale-105 bg-transparent border-none cursor-pointer flex items-center space-x-1"
               >
-                <span>Guidelines</span>
+                <span>Publications</span>
                 <ChevronDown
                   size={16}
                   className={`transition-transform duration-200 ${
@@ -300,7 +300,7 @@ const Navbar = () => {
               {/* Mobile Guidelines Section */}
               <div className="border-b border-gray-100">
                 <div className="py-3 text text-gray-600 text-center font-medium">
-                  Guidelines
+                  Publications
                 </div>
                 {guidelinesLinks.map((guideline) => (
                   <Link

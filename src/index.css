@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,11 +10,12 @@
 
 .hero-pattern {
   background-color: rgba(86, 183, 86, 0.03);
-  background-image: radial-gradient(rgba(86, 183, 86, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(86, 183, 86, 0.1) 1px,
+    transparent 1px
+  );
   background-size: 1rem 1rem;
 }
-
-
 
 @layer base {
   :root {
@@ -72,8 +73,6 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
@@ -101,7 +100,7 @@
 }
 
 .muted-text {
-  font-size:1rem;
+  font-size: 1rem;
   line-height: 1.4;
   font-weight: 400;
   opacity: 0.7;
@@ -118,13 +117,13 @@
 
 @keyframes subtle-glow {
   0% {
-    box-shadow: 0 0 0 0 rgba(34,197,94, 0.15);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.15);
   }
   50% {
-    box-shadow: 0 0 12px 4px rgba(34,197,94, 0.25);
+    box-shadow: 0 0 12px 4px rgba(34, 197, 94, 0.25);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(34,197,94, 0.15);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.15);
   }
 }
 
@@ -132,4 +131,9 @@
   animation: subtle-glow 1.5s infinite;
   border-radius: 9999px;
   transition: box-shadow 0.3s;
+}
+
+.transparent-bg {
+  background-color: transparent;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.1));
 }

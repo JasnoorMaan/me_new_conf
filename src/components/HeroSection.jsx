@@ -18,9 +18,15 @@ const HeroSection = () => {
 
       <section className="flex flex-col md:flex-row justify-center items-stretch relative z-30 min-h-[calc(100vh-5rem)]">
         <section className="hidden md:gap-2 md:flex md:flex-col md:justify-start md:items-center relative z-40 pt-8">
-          <h2 className="font-bold text-lg text-center mb-4">
+          <h2 className="font-bold text-lg text-center mb-4 underline">
             Publication Partners
           </h2>
+          <img
+            className="rounded-lg"
+            width={250}
+            src="/landing/springer_hori.jpg"
+            alt="Springer Logo"
+          />
           <img
             className="rounded-lg mb-2"
             width={250}
@@ -33,15 +39,15 @@ const HeroSection = () => {
             src="/landing/sigma.jpg"
             alt="Sigma Logo"
           />
-          <img
-            className="rounded-lg"
-            width={250}
-            src="/landing/springer_hori.jpg"
-            alt="Springer Logo"
-          />
         </section>
         <div className="container mx-auto px-4 relative z-40 flex items-center justify-center">
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+            <img
+              className=""
+              width={200}
+              src="/topSpringerLogo.png"
+              alt="springer"
+            />
             <h1 className="heading font-heading leading-tight">
               <span className="block highlighter1 mb-2">
                 1<sup>st</sup> International Conference
@@ -147,8 +153,10 @@ const HeroSection = () => {
             src="/landing/GoldenTemple.webp"
             alt="Golden Temple"
           />
-          <section className="flex flex-col gap-4 md:flex-col justify-start items-center">
-            <h2 className="font-bold mb-2">Sponsors</h2>
+          <section className="flex flex-col gap-2 md:flex-col justify-start items-center">
+            <h2 className="font-bold text-lg text-center mb-2 underline">
+              Our Sponsors
+            </h2>
             <img
               className="rounded-lg"
               width={250}

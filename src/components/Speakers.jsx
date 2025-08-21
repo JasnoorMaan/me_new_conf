@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/card";
 
 const Speakers = () => {
-  // One real speaker
   const speakers = [
     {
       id: 1,
@@ -50,16 +49,30 @@ const Speakers = () => {
     {
       id: 5,
       name: "Mr. Arijit Ghosh",
-      affiliation: "Founder & MD, S.A.P. Automation",
+      affiliation: "Founder & MD, S.A.P. Automation India Pvt. Ltd.",
       image: "/speakers/Arijit.jpg",
+      bio: "",
+    },
+    {
+      id: 6,
+      name: "Prof. B V Reddy",
+      affiliation:
+        "Department of Mechanical and Manufacturing Engineering, Ontario Tech University, Canada",
+      image: "/speakers/reddy.jpg",
+      bio: "",
+    },
+    {
+      id: 7,
+      name: "Dr. Jagabandhu Kole",
+      affiliation: "Sr. Vice President, R & D, JSW Cement",
+      image: "/speakers/jagabandhu.jpg",
       bio: "",
     },
   ];
 
-  // Combine 1 real speaker + 5 placeholders
   const displaySpeakers = [
     ...speakers, // real speaker(s)
-    ...Array(2)
+    ...Array(5)
       .fill(null)
       .map((_, index) => ({
         ...speakers[0],
