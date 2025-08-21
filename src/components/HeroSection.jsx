@@ -23,22 +23,25 @@ const HeroSection = () => {
           </h2>
           <img
             className="rounded-lg"
-            width={250}
+            width={200}
             src="/landing/springer_hori.jpg"
             alt="Springer Logo"
           />
           <img
             className="rounded-lg mb-2"
-            width={250}
+            width={200}
             src="/landing/journal.jpg"
             alt="Journal Logo"
           />
           <img
             className="rounded-lg mb-2"
-            width={250}
+            width={200}
             src="/landing/sigma.jpg"
             alt="Sigma Logo"
           />
+          <p className="text-sm text-center font-semibold">
+            More publication proposals awaiting confirmation
+          </p>
         </section>
         <div className="container mx-auto px-4 relative z-40 flex items-center justify-center">
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
@@ -145,6 +148,9 @@ const HeroSection = () => {
             src="/landing/springer_hori.jpg"
             alt="Springer Logo"
           />
+          <p className="text-sm text-center font-semibold">
+            More publication proposals awaiting confirmation
+          </p>
         </section>
         <section className="flex flex-row gap-2 justify-center md:justify-start items-start md:flex-col relative z-40 pt-8">
           <img
@@ -163,6 +169,9 @@ const HeroSection = () => {
               src="/sponsors/manik_sponsor.jpg"
               alt="Manik Sponsor"
             />
+            <p className="text-sm text-center font-semibold">
+              More sponsors are awaiting confirmation
+            </p>
           </section>
         </section>
       </section>

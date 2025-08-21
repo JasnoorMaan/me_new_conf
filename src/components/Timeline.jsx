@@ -8,7 +8,8 @@ const Timeline = () => {
       title: "Abstract Submission",
       titleHtml:
         "Abstract Submission extended to <span> <span style='color:#ff0000'>15<sup>th</sup> Sept 2025</span> </span>",
-      description: "You can submit the paper directly",
+      description:
+        "<span style='font-weight: bold; animation: subtle-blink 1.5s infinite;'>You can submit the paper directly</span><style>@keyframes subtle-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }</style>",
       status: "upcoming",
     },
     {
@@ -101,9 +102,10 @@ const Timeline = () => {
                   </h3>
 
                   {/* Description */}
-                  <p className="normal-text text-gray-600 leading-relaxed">
-                    {item.description}
-                  </p>
+                  <p
+                    className="normal-text text-gray-600 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  ></p>
 
                   {/* Conference highlight indicator */}
                   {item.isHighlight && (
