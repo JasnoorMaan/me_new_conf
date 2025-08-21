@@ -6,7 +6,8 @@ const Timeline = () => {
       id: 1,
       date: "<span style='text-decoration: line-through;'>10<sup>th</sup> Aug 2025</span>",
       title: "Abstract Submission",
-      titleHtml: "Extended to 15<sup>th</sup> Sept 2025",
+      titleHtml:
+        "Abstract Submission extended to <span> <span style='color:#ff0000'>15<sup>th</sup> Sept 2025</span> </span>",
       description: "You can submit the paper directly",
       status: "upcoming",
     },
@@ -26,7 +27,7 @@ const Timeline = () => {
     },
     {
       id: 4,
-      date: "05<sup>th</sup> Jan 2026",
+      date: "20<sup>th</sup> Dec 2025",
       title: "Registration Closes",
       description: "Registration closing date",
       status: "upcoming",
