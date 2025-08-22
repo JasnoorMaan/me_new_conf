@@ -113,28 +113,43 @@ const HeroSection = () => {
           </div>
 
           {/* Right Sidebar - Sponsors */}
-          <section className="hidden md:flex md:flex-col md:justify-start md:items-center md:col-span-2 relative z-40 pt-8 pr-2">
-            <img
-              className="rounded-lg mb-4"
-              width={200}
-              src="/landing/GoldenTemple.webp"
-              alt="Golden Temple"
-            />
-            <h2 className="font-bold text-lg text-center mb-2 underline">
-              Our Sponsors
-            </h2>
-            <img
-              className="rounded-lg"
-              width={200}
-              src="/sponsors/manik_sponsor.jpg"
-              alt="Manik Sponsor"
-            />
-            <p className="text-sm text-center font-semibold">
-              More sponsors are awaiting confirmation
-            </p>
+          <section className="hidden md:flex md:flex-col md:justify-between md:items-center md:col-span-2 relative z-40 pt-8 pr-2 min-h-[calc(100vh-8rem)]">
+            {/* Top Section - Golden Temple and Sponsors */}
+            <div className="flex flex-col items-center">
+              <img
+                className="rounded-lg mb-4"
+                width={200}
+                src="/landing/GoldenTemple.webp"
+                alt="Golden Temple"
+              />
+              <h2 className="font-bold text-lg text-center mb-2 underline">
+                Our Sponsors
+              </h2>
+              <img
+                className="rounded-lg mb-4"
+                width={200}
+                src="/sponsors/manik_sponsor.jpg"
+                alt="Manik Sponsor"
+              />
+              <p className="text-sm text-center font-semibold">
+                More sponsors are awaiting confirmation
+              </p>
+            </div>
+
+            {/* Bottom Section - Media Partner */}
+            <div className="flex flex-col items-center">
+              <h2 className="font-bold text-lg text-center mb-2 underline">
+                Media Partner
+              </h2>
+              <img
+                className="rounded-lg"
+                width={200}
+                src="/media1.jpg"
+                alt="Media Partner"
+              />
+            </div>
           </section>
         </div>
-
         {/* Scroll down arrow */}
         <div className="absolute bottom-1 left-0 right-0 flex justify-center animate-bounce z-40">
           <a
@@ -184,7 +199,7 @@ const HeroSection = () => {
           </p>
         </section>
 
-        <section className="flex flex-row gap-2 justify-center items-start md:hidden relative z-40 pt-8">
+        <section className="flex flex-col gap-4 justify-center items-center md:hidden relative z-40 pt-8">
           <section className="flex flex-col gap-2 justify-start items-center">
             <h2 className="font-bold text-lg text-center mb-2 underline">
               Our Sponsors
@@ -198,6 +213,18 @@ const HeroSection = () => {
             <p className="text-sm text-center font-semibold">
               More sponsors are awaiting confirmation
             </p>
+          </section>
+
+          <section className="flex flex-col gap-2 justify-start items-center">
+            <h2 className="font-bold text-lg text-center mb-2 underline">
+              Media Partner
+            </h2>
+            <img
+              className="rounded-lg"
+              width={250}
+              src="/media1.jpg"
+              alt="Media Partner"
+            />
           </section>
         </section>
       </div>
