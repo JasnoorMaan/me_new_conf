@@ -113,7 +113,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right Sidebar - Sponsors */}
-          <section className="hidden md:flex md:flex-col md:justify-between md:items-center md:col-span-2 relative z-40 pt-8 pr-2 min-h-[calc(100vh-4rem)]">
+          <section className="hidden md:flex md:flex-col md:justify-between md:items-center md:col-span-2 relative z-40 pt-8 pr-2 min-h-[calc(100vh-6rem)]">
             {/* Top Section - Golden Temple and Sponsors */}
             <div className="flex flex-col items-center">
               <img
