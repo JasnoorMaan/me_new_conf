@@ -5,17 +5,6 @@ import NITJlogo from "/NITJlogo.svg";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }
-  };
-
   return (
     <footer
       id="contact"
