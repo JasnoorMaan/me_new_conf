@@ -113,7 +113,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right Sidebar - Sponsors */}
-          <section className="hidden md:flex md:flex-col md:justify-between md:items-center md:col-span-2 relative z-40 pt-8 pr-2 min-h-[calc(100vh-8rem)]">
+          <section className="hidden md:flex md:flex-col md:justify-between md:items-center md:col-span-2 relative z-40 pt-8 pr-2 min-h-[calc(100vh-4rem)]">
             {/* Top Section - Golden Temple and Sponsors */}
             <div className="flex flex-col items-center">
               <img
@@ -141,17 +141,24 @@ const HeroSection = () => {
               <h2 className="font-bold text-lg text-center mb-2 underline">
                 Media Partner
               </h2>
-              <img
-                className="rounded-lg"
-                width={200}
-                src="/media1.jpg"
-                alt="Media Partner"
-              />
+              <a
+                href="https://allconferencealert.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full relative z-50"
+              >
+                <img
+                  className="rounded-lg"
+                  width={200}
+                  src="/media1.jpg"
+                  alt="Media Partner"
+                />
+              </a>
             </div>
           </section>
         </div>
         {/* Scroll down arrow */}
-        <div className="absolute bottom-1 left-0 right-0 flex justify-center animate-bounce z-40">
+        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 animate-bounce z-30">
           <a
             href="#about"
             className="text-gray-500 hover:text-conf-green-600 transition-colors"
@@ -219,12 +226,19 @@ const HeroSection = () => {
             <h2 className="font-bold text-lg text-center mb-2 underline">
               Media Partner
             </h2>
-            <img
-              className="rounded-lg"
-              width={250}
-              src="/media1.jpg"
-              alt="Media Partner"
-            />
+            <a
+              href="https://allconferencealert.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full relative z-50"
+            >
+              <img
+                className="rounded-lg"
+                width={250}
+                src="/media1.jpg"
+                alt="Media Partner"
+              />
+            </a>
           </section>
         </section>
       </div>

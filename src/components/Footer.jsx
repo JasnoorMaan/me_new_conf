@@ -68,7 +68,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/media1.jpg" alt="Springer" className="h-12 mb-2" />
+                <img
+                  src="/media1.jpg"
+                  alt="Springer"
+                  className="h-12 mb-2 rounded-lg"
+                />
               </a>
             </div>
             <div>
