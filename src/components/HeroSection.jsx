@@ -24,7 +24,7 @@ const HeroSection = () => {
               Publication Partners
             </h2>
             <img
-              className="rounded-lg"
+              className="rounded-lg mb-2"
               width={200}
               src="/landing/springer_hori.jpg"
               alt="Springer Logo"
@@ -68,7 +68,7 @@ const HeroSection = () => {
               </h1>
               <div className="py-8 inline-block">
                 <span
-                  className="bg-conf-green-100 text-conf-green-800 px-6 py-2 rounded-full normal-text font-semibold shadow-sm 
+                  className="bg-conf-green-100 text-conf-green-800 px-6 py-2 rounded-full normal-text font-bold shadow-sm 
                                hover:scale-105 hover:shadow-lg hover:bg-conf-green-200 pillbox-animate"
                 >
                   January 16-18, 2026 (Hybrid Mode)

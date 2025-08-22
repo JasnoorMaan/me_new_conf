@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AdvisoryComm = () => {
   const nationalCommittee = [
@@ -25,23 +25,24 @@ const AdvisoryComm = () => {
     "Prof. Rakesh Sehgal, NIT Hamirpur",
     "Prof. Satish Kumar, NIT Kurukshetra",
     "Prof. Jagdev Singh, Beant College of Engineering and Technology, Gurdaspur",
+    "Dr. O P Verma, NIT Jalandhar",
   ];
 
   const internationalCommittee = [
-     "Prof. Ramesh T. Subramaniam, University of Malaya, Malaysia.",
-     "Dr. B.V. Reddy, University of Ontario Institute of Technology, Canada",
-     "Dr. Ramana V. Grandhi, Wright State University, USA",
-     "Dr. Ezra Morris Abraham Gnanamuthu, Lee Kong Chian Faculty of Engineering and Science, UTAR Sungai Long Campus, Malaysia.",
-     "Dr.M V Venkatashamy Reddy, National University of Singapore",
-     "Dr Alexandru Rap, Scientist, University of Leeds, UK",
-     "Dr. Fateh Mebarek-Oudina, Skikda University, Algeria",
-     "Dr. Lioua Kolsi, University of Hail, Saudi Arabia",
-     "Dr. Naomi Boness, Managing Director, Natural Gas Initiative, Stanford University, California, USA.",
-     "Prof. PV Aravind,University Groningen, The Netherlands",
-     "Prof. Jayanta Kapat, University of Central Florida, USA",
-     "Prof. Shripad P. Mahulikar, Ikerbasque Research Professor, UPV/EHU",
-     "Prof. Manosh C Paul, The University of Glasgow",
-     "Dr. Arvind Gangoli Rao, Delft University of Technology, Delft",
+    "Prof. Ramesh T. Subramaniam, University of Malaya, Malaysia.",
+    "Dr. B.V. Reddy, University of Ontario Institute of Technology, Canada",
+    "Dr. Ramana V. Grandhi, Wright State University, USA",
+    "Dr. Ezra Morris Abraham Gnanamuthu, Lee Kong Chian Faculty of Engineering and Science, UTAR Sungai Long Campus, Malaysia.",
+    "Dr.M V Venkatashamy Reddy, National University of Singapore",
+    "Dr Alexandru Rap, Scientist, University of Leeds, UK",
+    "Dr. Fateh Mebarek-Oudina, Skikda University, Algeria",
+    "Dr. Lioua Kolsi, University of Hail, Saudi Arabia",
+    "Dr. Naomi Boness, Managing Director, Natural Gas Initiative, Stanford University, California, USA.",
+    "Prof. PV Aravind,University Groningen, The Netherlands",
+    "Prof. Jayanta Kapat, University of Central Florida, USA",
+    "Prof. Shripad P. Mahulikar, Ikerbasque Research Professor, UPV/EHU",
+    "Prof. Manosh C Paul, The University of Glasgow",
+    "Dr. Arvind Gangoli Rao, Delft University of Technology, Delft",
   ];
 
   return (
@@ -55,17 +56,22 @@ const AdvisoryComm = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* National Committee Container */}
           <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600">
-            <h3 className="subheading highlighter1 mb-8 text-center">NATIONAL ADVISORY COMMITTEE</h3>
+            <h3 className="subheading highlighter1 mb-8 text-center">
+              NATIONAL ADVISORY COMMITTEE
+            </h3>
             <div className="space-y-4">
               {nationalCommittee.map((member, index) => (
-                <div 
+                <div
                   key={index}
                   className="flex items-start space-x-3 p-3 rounded-lg hover:bg-conf-green-50 transition-colors duration-200"
                 >
                   <div className="w-6 h-6 bg-conf-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1 flex-shrink-0">
                     {index + 1}
                   </div>
-                  <span className="normal-text font-semibold text-gray-700 leading-relaxed" style={{lineHeight: '1.8'}}>
+                  <span
+                    className="normal-text font-semibold text-gray-700 leading-relaxed"
+                    style={{ lineHeight: "1.8" }}
+                  >
                     {member}
                   </span>
                 </div>
@@ -75,17 +81,22 @@ const AdvisoryComm = () => {
 
           {/* International Committee Container */}
           <div className="bg-white rounded-lg p-8 shadow-md border-l-4 border-l-conf-green-600">
-            <h3 className="subheading highlighter1 mb-8 text-center">INTERNATIONAL ADVISORY COMMITTEE</h3>
+            <h3 className="subheading highlighter1 mb-8 text-center">
+              INTERNATIONAL ADVISORY COMMITTEE
+            </h3>
             <div className="space-y-4">
               {internationalCommittee.map((member, index) => (
-                <div 
+                <div
                   key={index}
                   className="flex items-start space-x-3 p-3 rounded-lg hover:bg-conf-green-50 transition-colors duration-200"
                 >
                   <div className="w-6 h-6 bg-conf-green-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1 flex-shrink-0">
                     {index + 1}
                   </div>
-                  <span className="normal-text font-semibold text-gray-700 leading-relaxed" style={{lineHeight: '1.8'}}>
+                  <span
+                    className="normal-text font-semibold text-gray-700 leading-relaxed"
+                    style={{ lineHeight: "1.8" }}
+                  >
                     {member}
                   </span>
                 </div>

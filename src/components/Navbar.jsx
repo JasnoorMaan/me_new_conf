@@ -47,11 +47,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "/", section: null, isRoute: true },
+    // { name: "Home", href: "/", section: null, isRoute: true },
     { name: "About", href: "#about", section: "about", isRoute: false },
     { name: "Tracks", href: "#tracks", section: "tracks", isRoute: false },
     {
-      name: "Important Dates",
+      name: "Dates",
       href: "#dates",
       section: "dates",
       isRoute: false,
